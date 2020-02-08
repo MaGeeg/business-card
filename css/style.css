@@ -26,3 +26,39 @@ body {
     padding: 32px;
 }
 
+/*ułożenie zdjęcia i tekstu obok siebie*/
+
+.person {
+    display: flex;
+    align-content: flex-start;
+}
+
+/*
+.person__description {
+    max-width: 380px;
+    width: auto;
+}
+
+.person__header {
+    max-width: 239px;
+    width: auto;
+}
+
+.person__name {
+    font-size: 36px;
+    color: black;
+    font-weight: normal;
+    margin: 0;
+}
+
+/*odsunięcie tekstu od zdjęcia*/
+
+.person__photo {
+    margin-right: 32px;
+    
+}
+
+
+
+
+
